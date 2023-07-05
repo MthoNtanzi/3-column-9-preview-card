@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="py-4 md:h-screen md:flex md:items-center md:contents-center">
+  <article class="text-white flex flex-col w-5/6 my-5 md:max-w-3xl mx-auto md:flex-row">
+    <div class="bg-orange-400 p-9 flex flex-col rounded-t-lg md:rounded-none md:rounded-l-lg">
+      <img src="images/icon-sedans.svg" class="mb-5 w-20" alt="Sedan icon">
+      <h1 class="text-5xl mb-5 uppercase">Sedans</h1>
+      <p class="mb-10 leading-7">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        or on your next road trip.</p>
+      <button class="bg-white text-orange-400 font-semibold w-36 rounded-full px-3 py-1 border-solid border-2 hover:bg-transparent hover:text-white hover:border-white ease-linear duration-300">Learn More</button>
+    </div>
+    
+    <div class="bg-teal-700 p-9 flex flex-col">
+      <img src="images/icon-suvs.svg" class="mb-5 w-20" alt="SUV icon">
+      <h1 class="text-5xl mb-5 uppercase">SUVs</h1>
+      <p class="mb-10 leading-7">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+        and off-road adventures.</p>
+      <button class="bg-white text-teal-600 font-semibold w-36 rounded-full px-3 py-1 border-solid border-2 hover:bg-transparent hover:text-white hover:border-white ease-linear duration-300">Learn More</button>
+    </div>
+
+    <div class="bg-teal-950 p-9 flex flex-col rounded-b-lg md:rounded-none md:rounded-r-lg">
+      <img src="images/icon-luxury.svg" class="mb-5 w-20" alt="Luxury icon">
+      <h1 class="text-5xl mb-5 uppercase">Luxury</h1>
+      <p class="mb-10 leading-7">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+        rental and arrive in style.</p>
+      <button class="bg-white text-teal-950 font-semibold w-36 rounded-full px-3 py-1 border-solid border-2 hover:bg-transparent hover:text-white hover:border-white ease-linear duration-300">Learn More</button>
+    </div>
+  </article>
+  
+</body>
+</html>
